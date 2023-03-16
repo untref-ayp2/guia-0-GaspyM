@@ -1,4 +1,3 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10496880)
 <h1 align="center">Guía 0</h1>
 
 <h3 align="center">Guia de ejercicios de repaso</h2>
@@ -25,4 +24,16 @@
 2. Escribir una función que reciba dos arreglos (que representan vectores) del mismo tamaño y devuelvan la suma y el producto escalar de los vectores
 3. Escribir una función que reciba dos arreglos A y B, de N y M elementos respectivamente que representan conjuntos de enteros y devuelva una arreglo con la unión y otro con la intersección de A y B. 
 
+<h4>Punteros</h4>
 
+1. Escribir una función con la siguiente firma func swap(px, py *int) que permita intercambiar el valor almacenado en dos variables enteras a través de punteros.
+
+<h4>Estructuras e Interfaces</h4>
+1. Agregar al módulo figuras visto en el taller un círculo (representado por un pto que indica el centro y su radio (entero). El círculo debe implementar los métodos de la interface figura.
+2. Escribir un programma que presente un menú con las opciones:
+
+- a. Rectangulo
+- b. Cuadrado
+- c. Circulo
+
+Que le permita al usuario crear 5 figuras y almacenarlas en un arreglo de figuras. Al terminar de cargar las figuras debe mostrar por pantalla todas las figuras almacenadas (usando el ToString) de cada figura.
